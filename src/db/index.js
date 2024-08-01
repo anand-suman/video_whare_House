@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
-import { DB_NAME } from "../consten.js";
+import { DB_NAME } from "../constents.js";
+// const DB_NAME = "VideoTube"
 
 const connectDB = async () =>{
     try {
